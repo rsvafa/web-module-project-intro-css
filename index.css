@@ -1,0 +1,57 @@
+/* Added this as was unsure if needed to specify this in CSS Reset file or here */
+html {
+    font-size: 62.5%;
+}
+
+/* Added to give sizing to body and auto margin calculation */
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.header_nav {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+}
+/* Used width with calc to try and evenly divide 100% by 3, but also added 30.33% just in case the calc does not work */
+a {
+    display: inline-block;
+    margin: 3%;
+    width: 30.33%;
+    width: calc(100% / 3);
+    border-radius: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Added specific background colors to each link */
+.plan_link {
+    background: #FF764E;
+}
+.learn_link {
+    background: #5ED3EB;
+}
+.involve_link {
+    background: #FFCD69;
+}
+/* Styling for header nav bar */
+.header_nav {
+    background: #FFFFFF;
+}
+/* Styling for footer nav bar */
+.footer_nav {
+    background: #F9E7DC;
+}
+
+
+.header_div {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+}
+.header_img {
+    margin: 2%;
+}
+.header_content {
+    margin: 2%;
+}

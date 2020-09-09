@@ -66,6 +66,7 @@ html, body{
     font-family: 'roboto_mono', serif;
     font-weight: normal;
     font-style: normal;
+    color: #000000;
 }
 
 /* Added to give base font for h1 */
@@ -73,6 +74,7 @@ h1 {
     font-family: 'chelsea_market', sans-serif;
     font-weight: normal;
     font-style: normal;
+    color: #000000;
 }
 
 /* The rest of this CSS has not been changed from the original reset code */
