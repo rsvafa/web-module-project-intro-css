@@ -50,8 +50,49 @@ a {
     width: 100%;
 }
 .header_img {
-    margin: 2%;
+    margin: 1%;
+    display: inline-block;
+    width: 30.33%;
+    border-radius: 50%;
 }
 .header_content {
-    margin: 2%;
+    margin: 1%;
+    display: inline-block;
+    width: 60.66%;
+    text-align: center;
+}
+
+
+.first_main_content {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DDB9A3;
+}
+
+
+.second_main_content {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    color: #FFFFFF;
+    background: #FFFFFF;
+}
+.second_main_p {
+    margin: 1%;
+    width: 23%;
+    display: inline-block;
+}
+.third_main_p {
+    margin: 1%;
+    width: 23%;
+    display: inline-block;
+}
+
+.footer_img {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
 }
