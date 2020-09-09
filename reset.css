@@ -53,7 +53,7 @@ footer, header, hgroup, menu, nav, section {
   }  
 /* Chelsea Market at Normal & Normal */
 @font-face {
-    font-family: 'roboto_mono';
+    font-family: 'chelsea_market';
     src: url('assets/Chelsea_Market/ChelseaMarket-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -63,9 +63,19 @@ footer, header, hgroup, menu, nav, section {
 /* Added to create base size for page and base font */
 html, body{
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'roboto_mono', serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
+/* Added to give base font for h1 */
+h1 {
+    font-family: 'chelsea_market', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* The rest of this CSS has not been changed from the original reset code */
 body {
 	line-height: 1;
 }
