@@ -18,16 +18,54 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
+    border: 0;
+    /* Changed from 100% to 62.5% so I could use rem easier */
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* Added - every element is a border-box - to include padding & border in total width & height*/
+* {
+    box-sizing: border-box;
+}
+
+/* Linking custom fonts */
+/* Roboto Mono at Normal & Normal */
+@font-face {
+    font-family: 'roboto_mono';
+    src: url('assets/Roboto_Mono/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+/* Roboto Mono at Bold & Normal */
+@font-face {
+    font-family: 'roboto_mono';
+    src: url('assets/Roboto_Mono/RobotoMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }  
+/* Chelsea Market at Normal & Normal */
+@font-face {
+    font-family: 'roboto_mono';
+    src: url('assets/Chelsea_Market/ChelseaMarket-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  } 
+
+
+/* Added to create base size for page and base font */
+html, body{
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 body {
 	line-height: 1;
 }
