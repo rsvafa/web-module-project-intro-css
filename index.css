@@ -1,0 +1,134 @@
+/* Added this as was unsure if needed to specify this in CSS Reset file or here */
+html {
+    font-size: 62.5%;
+}
+
+/* Added to give sizing to body and auto margin calculation */
+body {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header Nav Bar */
+.flex_row_1a, .flex_row_1b {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 160px;
+}
+.plan_link, .learn_link, .involve_link {
+    border-radius: 20px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 1.5rem;
+}
+div.plan_link a, div.learn_link a, div.involve_link a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.plan_link {
+    background: #FF764E;
+}
+.learn_link {
+    background: #5ED3EB;
+}
+.involve_link {
+    background: #FFCD69;
+}
+.plan_link:hover, .learn_link:hover, .involve_link:hover {
+    background: #4E4C74;
+}
+
+/* Header Content */
+.flex_row_2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+.header_content, .header_img {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 1.5rem;
+}
+div.header_img img {
+    width: 325px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+h1 {
+    font-size: 7rem;
+    margin-bottom: 4rem;
+}
+.header_content_1, .header_content_2 p {
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+/* First Main Content */
+.first_main_content, .first_main_content_plan {
+    margin: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #DDB9A3;
+    font-size: 2.3rem;
+}
+.first_main_p {
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+/* Adjustments for other HTML pages */
+.first_main_content {
+    height: 265px;
+}
+.first_main_content_plan {
+    height: 425px;
+}
+
+/* Second Main Content */
+.flex_column_1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+.second_main_1, .second_main_2 {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    line-height: 2rem;
+}
+div.second_main_1 img, div.second_main_2 img {
+    height: 150px;
+    object-fit: fill;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Footer Img */
+.footer_img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+/* Footer Nav, mostly styled from Header Nav above */
+.flex_row_1b {
+    background: #F9E7DC;
+}
